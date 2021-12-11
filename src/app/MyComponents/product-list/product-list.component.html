@@ -1,0 +1,26 @@
+<div class="list">
+    <h2>Products</h2>
+
+    <div *ngFor="let i of data">
+       <h3 class="primary">
+        <a [title]="i.name + ' details'"  [routerLink]="['/products', i.id]">{{i.name}}</a>  
+        <!-- Set the title to be the product's name by using the property binding [ ] syntax, as follows: -->
+        </h3>
+
+        <p *ngIf="i.desc">
+            Description: {{ i.desc }}
+        </p>
+    
+       <p>Price: {{i.price}}</p>
+
+       <button class="btn" (click)="share(i.name)">
+        Share
+      </button>
+      <app-product-alerts [product]="i" (notify)="onNotify()">  </app-product-alerts>
+    </div>
+   
+
+    
+</div>
+
+<!-- <footer>© 2020 Copyright:aniketchavan505@gmail.com</footer> -->

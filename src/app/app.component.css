@@ -1,0 +1,35 @@
+.container{
+    height: 80vh;
+    width: 60vh;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.heading{
+    background-color:#1976d2;
+    
+    display: flex;
+    font-family: 'Comforter', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding: 9px 13px;
+    
+}
+
+.heading .btn{
+    margin-left: auto;
+}
+
+button{
+    padding: 11px 20px;
+    font-size: large;
+    color: #1976d2;;
+    cursor: pointer;
+}
+
+.mytext{
+    font-size: 51px;
+}

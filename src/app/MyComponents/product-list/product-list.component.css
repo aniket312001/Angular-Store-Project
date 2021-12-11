@@ -1,0 +1,31 @@
+*{
+    font-family: 'Comforter', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.list{
+    /* border: 2px solid red; */
+    margin: 5px 0px 1px 23px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.primary{
+    color:#1976d2;
+    
+}
+
+
+.btn{
+    background-color:#1976d2;
+    color: white;
+    padding: 6px 13px;
+    cursor: pointer;
+}
+
+
+/* footer{ */
+    /* background-color: black; */
+    /* color: white; */
+/* } */
